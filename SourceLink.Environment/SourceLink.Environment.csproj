@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp3.0;</TargetFrameworks>
+    <PackageId>DotNetCore.SourceLink.Environment</PackageId>
+    <PackageTags>roslyn;compilation;natasha;env;compile;ncc;</PackageTags>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IsPackable>true</IsPackable>
+    <OutputType>Library</OutputType>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>NMSAzulX</Authors>
+    <PackageIcon>19404084.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/dotnetcore/SourceLink.Environment</PackageProjectUrl>
+    <Copyright>.NET Core Community and Contributors</Copyright>
+    <Description>此包为 SourceLink 环境包</Description>
+    <Version>1.0.0-alpha1</Version>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Administrator\Desktop\19404084.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="C:\Users\Administrator\Desktop\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
