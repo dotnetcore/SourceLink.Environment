@@ -14,7 +14,7 @@
     <PackageProjectUrl>https://github.com/dotnetcore/SourceLink.Environment</PackageProjectUrl>
     <Copyright>.NET Core Community and Contributors</Copyright>
     <Description>此包为 SourceLink 环境包</Description>
-    <Version>1.0.0-alpha1</Version>
+    <Version>1.0.0-alpha2</Version>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
 
@@ -27,5 +27,9 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\netstandard2.0\DotNetCore.SourceLink.Environment.targets" />
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\netstandard2.0\DotNetCore.SourceLink.Environment.targets" />
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\netcoreapp3.0\DotNetCore.SourceLink.Environment.targets" />
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\netcoreapp3.0\DotNetCore.SourceLink.Environment.targets" />
   </ItemGroup>
 </Project>
