@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netcoreapp3.0;</TargetFrameworks>
     <PackageId>DotNetCore.SourceLink.Environment</PackageId>
-    <PackageTags>roslyn;compilation;natasha;env;compile;ncc;</PackageTags>
+    <PackageTags>sourcelink;debug;source;github;env;ncc;</PackageTags>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IsPackable>true</IsPackable>
     <OutputType>Library</OutputType>
@@ -14,7 +14,7 @@
     <PackageProjectUrl>https://github.com/dotnetcore/SourceLink.Environment</PackageProjectUrl>
     <Copyright>.NET Core Community and Contributors</Copyright>
     <Description>此包为 SourceLink 环境包</Description>
-    <Version>1.0.0-alpha2</Version>
+    <Version>1.0.0.0</Version>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
 
