@@ -13,16 +13,17 @@ jobs:
   publish:
     runs-on: windows-latest
     strategy:
-       matrix:
-          dotnet: ['3.1.x', '5.0.x','6.0.x']
+      matrix:
+         dotnet: ['6.x']
           
     steps:
-
+    - uses: actions/checkout@v3
+    
     - name: Release Dll
-      run : dotnet build -c Release
+      run : dotnet build ./SourceLink.Environment/SourceLink.Environment.csproj -c Release
 
     - name: Pack - Env
-      run: dotnet pack --include-symbols -p:SymbolPackageFormat=snupkg --no-build -c Release DotNetCore.Compile.Environment/DotNetCore.Compile.Environment.csproj -o .
+      run: dotnet pack --include-symbols -p:SymbolPackageFormat=snupkg --no-build -c Release ./SourceLink.Environment/SourceLink.Environment.csproj -o .
 
     - name: Push to Nuget - Env
       run: dotnet nuget push *.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json --skip-duplicate

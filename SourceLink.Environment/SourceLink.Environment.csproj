@@ -8,10 +8,10 @@
 	  <RepositoryUrl>https://github.com/dotnetcore/SourceLink.Environment</RepositoryUrl>
 	  <PackageProjectUrl>https://github.com/dotnetcore/SourceLink.Environment</PackageProjectUrl>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
-	  <Version>3.1.0</Version>
+	  <Version>3.2.0</Version>
 	  <PackageReleaseNotes>发布最新版</PackageReleaseNotes>
 
-	  <TargetFrameworks>netcoreapp3.1;net5.0;net6.0;</TargetFrameworks>
+	  <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
 	  <IsPackable>true</IsPackable>
 	  <IncludeSymbols>true</IncludeSymbols>
 	  <OutputType>Library</OutputType>
@@ -34,11 +34,13 @@
 	  <PackagePath></PackagePath>
 	</None>
 
-    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\netcoreapp3.1\DotNetCore.SourceLink.Environment.targets" />
-    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\netcoreapp3.1\DotNetCore.SourceLink.Environment.targets" />
-	<None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\net6\DotNetCore.SourceLink.Environment.targets" />
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\netstandard2.1\DotNetCore.SourceLink.Environment.targets" />
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\netstandard2.1\DotNetCore.SourceLink.Environment.targets" />
+	<None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\netstandard2.0\DotNetCore.SourceLink.Environment.targets" />
+    <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\netstandard2.0\DotNetCore.SourceLink.Environment.targets" />
+	<!--<None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\net6\DotNetCore.SourceLink.Environment.targets" />
 	<None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\net6\DotNetCore.SourceLink.Environment.targets" />
     <None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="build\net5\DotNetCore.SourceLink.Environment.targets" />
-	<None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\net5\DotNetCore.SourceLink.Environment.targets" />
+	<None Include="targets\DotNetCore.SourceLink.Environment.targets" Pack="true" PackagePath="buildTransitive\net5\DotNetCore.SourceLink.Environment.targets" />-->
 </ItemGroup>
 </Project>
