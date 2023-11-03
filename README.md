@@ -1,4 +1,8 @@
 # SourceLink.Environment
+
+[![Member project of .NET Core Community](https://img.shields.io/badge/member%20project%20of-NCC-9e20c9.svg)](https://github.com/dotnetcore)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dotnetcore/CAP/master/LICENSE.txt)
+
 为 SourceLink 功能提供可继承性的 Nuget 包
 
 ## 使用方法
