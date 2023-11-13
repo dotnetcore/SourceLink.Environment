@@ -17,7 +17,7 @@ jobs:
          dotnet: ['6.x']
           
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     
     - name: Release Dll
       run : dotnet build ./SourceLink.Environment/SourceLink.Environment.csproj -c Release
