@@ -2,13 +2,13 @@
 
   <PropertyGroup>
 	  <PackageId>DotNetCore.SourceLink.Environment</PackageId>
-	  <Description>此包为 SourceLink 环境包</Description>
+	  <Description>此包为 SourceLink 环境包，允许子包向下传递功能。</Description>
 	  <PackageTags>env;ncc;source;sourcelink;github;</PackageTags>
 	  <PackageIcon>19404084.png</PackageIcon>
 	  <RepositoryUrl>https://github.com/dotnetcore/SourceLink.Environment</RepositoryUrl>
 	  <PackageProjectUrl>https://github.com/dotnetcore/SourceLink.Environment</PackageProjectUrl>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
-	  <Version>3.2.0</Version>
+	  <Version>8.0.0</Version>
 	  <PackageReleaseNotes>发布最新版</PackageReleaseNotes>
 
 	  <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
